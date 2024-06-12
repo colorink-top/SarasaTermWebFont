@@ -50,7 +50,6 @@ jobs:
 
       - name: Commit files
         run: |
-          mv index.html fonts/index.html
           cd fonts || exit 1
           git init
           git config user.email github-actions[bot]@users.noreply.github.com
